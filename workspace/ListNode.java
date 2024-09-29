@@ -51,4 +51,12 @@ public class ListNode
 	{
 		next = theNewNext;
 	}
+	public String toString(){
+		if(value!=null){
+			return value.toString();
+		}
+		else{
+			return "null";
+		}
+	}
 }
